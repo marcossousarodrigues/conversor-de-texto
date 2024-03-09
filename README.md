@@ -1,8 +1,11 @@
-Conversor de Texto
+<h1>Conversor de Texto</h1>
+<h2>
 Conversor de texto online desenvolvido em HTML, CSS e JavaScript.
+</h2>
 
-Descrição
+<p>
 Este conversor de texto online permite que você converta seu texto em maiúsculas, minúsculas ou com a primeira letra de cada palavra maiúscula.
+</p>
 
 Funcionalidades
 Três opções de conversão:
