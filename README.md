@@ -31,3 +31,9 @@ Três opções de conversão:
 <p>
     Compatível com diversos navegadores: use o Conversor de Texto em qualquer navegador moderno, como Chrome, Firefox, Edge e Safari.
 </p>
+
+![image](https://github.com/marcossousarodrigues/conversor-de-texto/assets/49259832/da9757e1-f492-453a-a1d1-4cba2ddfba89)
+
+
+
+
