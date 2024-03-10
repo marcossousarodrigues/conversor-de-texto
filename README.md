@@ -6,6 +6,9 @@ Conversor de texto web desenvolvido em HTML, CSS e JavaScript.
 <p>
 Este conversor de texto web permite que você converta seu texto em maiúsculas, minúsculas ou com a primeira letra de cada palavra maiúscula.
 </p>
+
+![image](https://github.com/marcossousarodrigues/conversor-de-texto/assets/49259832/da9757e1-f492-453a-a1d1-4cba2ddfba89)
+
 <h2>
 Desenvolvido com HTML, CSS e JavaScript, este projeto web oferece:
 </h2>
@@ -31,3 +34,8 @@ Três opções de conversão:
 <p>
     Compatível com diversos navegadores: use o Conversor de Texto em qualquer navegador moderno, como Chrome, Firefox, Edge e Safari.
 </p>
+
+
+
+
+
