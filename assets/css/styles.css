@@ -7,43 +7,54 @@ body{
 h1{
     font-size: 3em;
 }
-.section_forms, .section_convertido{
-    margin: auto 200px;
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.section_forms form{
+
+.section-container h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.section-container .forms{
+    width: 40%;
+}
+.section-container .forms form{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
 }
-
-.section_forms form textarea{
+.section-container .forms form textarea{
     height: 300px;
-    width: 100%;
     border: 1px solid #ccc;
     outline: none;
-    padding: 20px;
-    
+    font-size: 1.2em;
+    padding: 5px;
 }
-.section_forms .btns{
-    padding: 10px;
+.section-container .forms form .btns{
+    margin-top: 10px;
 }
-.section_forms .btns button{
-    padding: 10px;
-    background-color: #999;
+.section-container .forms form .btns button{
+    padding: 5px;
+    background-color: rgb(36, 144, 220);
+    color: #fff;
     border: none;
-    cursor: pointer;
+    font-size: 1em;
 }
 
-.section_convertido{
-    padding: 20px;
-}
 
-@media screen and (max-width: 900px) {
-    .section_forms, .section_convertido{
-        margin: 10px;
+@media screen and (max-width: 1100px) {
+    .section-container .forms{
+        width: 100%;
+    } 
+    .section-container .forms form{
+        width: 100%;
     }
-    .section_forms form textarea{
-        margin: 10px auto;
-        padding:0;
-    }    
-}
+} 

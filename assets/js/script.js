@@ -22,10 +22,16 @@ class Conversor{
         el.btnMaiuscula.addEventListener('click', (e)=>{
             e.preventDefault();
             el.valorConvertido.innerText = el.textareaConversor.value.toUpperCase();
+            el.btnMaiuscula.style.backgroundColor = "blue";
+            el.btnMinuscula.style.backgroundColor = "rgb(36, 144, 220)";
+            el.btnPrimeiraLetra.style.backgroundColor = "rgb(36, 144, 220)";
         });
         el.btnMinuscula.addEventListener('click', (e)=>{
             e.preventDefault();
             el.valorConvertido.innerText = el.textareaConversor.value.toLowerCase();
+            el.btnMaiuscula.style.backgroundColor = "rgb(36, 144, 220)";
+            el.btnMinuscula.style.backgroundColor = "blue";
+            el.btnPrimeiraLetra.style.backgroundColor = "rgb(36, 144, 220)";
         });
         el.btnPrimeiraLetra.addEventListener('click', (e)=>{
             e.preventDefault();
@@ -36,6 +42,9 @@ class Conversor{
             })
             console.log(palavraConvertida)
             el.valorConvertido.innerText = palavraConvertida;
+            el.btnMaiuscula.style.backgroundColor = "rgb(36, 144, 220)";
+            el.btnMinuscula.style.backgroundColor = "rgb(36, 144, 220)";
+            el.btnPrimeiraLetra.style.backgroundColor = "blue";
         });
     }
 }

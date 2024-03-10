@@ -14,23 +14,26 @@
     <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
-    <section class="section_forms">
-        <h1>Conversor de texto</h1>
-        <form>
-            <label for="texto">Copie seu texto aqui</label>
-            <textarea class="textarea-conversor"></textarea>
-            <div class="btns">
-                <button class="conversor-maiuscula">Mauiscula</button>
-                <button class="conversor-minuscula">Minuscula</button>
-                <button class="conversor-primeira-letra">Primeira letra maiuscula</button>
-            </div>
-        </form>
-    </section>
+    <section class="section-container">
+        <h1>Conversor de Texto: Maiúsculas e Minúsculas</h1>
+        <section class="forms">
+            <form>
+                <label for="texto">Copie seu texto aqui:</label>
+                <textarea class="textarea-conversor"></textarea>
+                <div class="btns">
+                    <button class="conversor-maiuscula">Maiúsculas</button>
+                    <button class="conversor-minuscula">Minúsculas</button>
+                    <button class="conversor-primeira-letra">Primeira letra maiúsculas</button>
+                </div>
+            </form>
+        </section>
 
-    <section class="section_convertido">
-        <article>
-            <p class="valor-convertido"></p>
-        </article>
+        <section class="forms">
+            <form>
+                <label for="texto">Resultado</label>
+                <textarea class="valor-convertido textarea-conversor"></textarea>
+            </form>
+        </section>
     </section>
 </body>
 </html>
