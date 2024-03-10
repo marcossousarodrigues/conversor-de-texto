@@ -32,7 +32,7 @@ class Conversor{
             const listaPalavras = el.textareaConversor.value.split(" ");
             let palavraConvertida = "";
             listaPalavras.map((item)=>{
-                palavraConvertida += item[0].toUpperCase() + item.substring(1)+" ";
+                palavraConvertida += item[0].toUpperCase() + item.substring(1).toLowerCase()+" ";
             })
             console.log(palavraConvertida)
             el.valorConvertido.innerText = palavraConvertida;
