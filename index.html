@@ -11,11 +11,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script-conversor.js" defer></script>
+    <script src="./assets/js/script-count-text.js" defer></script>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#maiusculas-minusculas">Minúsculas e Maiúsculas</a>
+                </li>
+                <li>
+                    <a href="#contador">Contador de Texto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section class="section-container">
-        <h1>Conversor de Texto: Maiúsculas e Minúsculas</h1>
+        <h1 id="maiusculas-minusculas">Maiúsculas e Minúsculas</h1>
         <section class="forms">
             <form>
                 <label for="texto">Copie seu texto aqui:</label>
@@ -33,6 +46,21 @@
                 <label for="texto">Resultado</label>
                 <textarea class="valor-convertido textarea-conversor"></textarea>
             </form>
+
+        </section>
+
+        <h1 id="contador">Contador de Texto</h1>
+
+        <section class="forms-count">
+            <form>
+                <label for="texto">Copie seu texto aqui:</label>
+                <textarea class="textarea-count"></textarea>
+            </form>
+            <article class="exibir-resultado">
+                <p>Letras: <span class="exibir-resultado-letras">0</span></p>
+                <p>Palavras: <span class="exibir-resultado-palavras">0</span></p>
+                <p>Linhas: <span class="exibir-resultado-linhas">0</span></p>
+            </article>
         </section>
     </section>
 </body>
