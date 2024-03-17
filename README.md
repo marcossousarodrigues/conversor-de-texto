@@ -30,13 +30,15 @@ Três opções de conversão:
 <p>
     Interface simples e intuitiva: basta digitar ou colar seu texto e escolher a opção desejada.
 </p>
+<p>
     Resultados instantâneos: o texto convertido é apresentado automaticamente, sem necessidade de 
     recarregar a página.
-<p>
-    Compatível com diversos navegadores: use o Conversor de Texto em qualquer navegador moderno, como Chrome, Firefox, Edge e Safari.
 </p>
 
 
+![image](https://github.com/marcossousarodrigues/conversor-de-texto/assets/49259832/30938b6a-96e8-4a56-9605-5cb66f032426)
+
+![image](https://github.com/marcossousarodrigues/conversor-de-texto/assets/49259832/5a199118-332b-4326-a90f-c973fd90efdf)
 
 
 
